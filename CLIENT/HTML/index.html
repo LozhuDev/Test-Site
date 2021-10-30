@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--META-->
+  <meta name="description" content="Belak the ultimate stat tracking website." />
+  <meta property="og:description" content="Belak the ultimate stat tracking website." />
+  <meta property="og:site_name" content="Belak | Stat Tracking" />
+  <meta property="og:image" content="https://Belak.gg/IMG/logo.png" />
+  <meta property="og:url" content="https://Belak.gg/" />
+  <meta name="keywords" content="Belak, stat, tracking, video game stats">
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="../IMG/logo.png">
+  <meta property="og:title" content="BELAK" />
+
+  <!--ICONS-->
+  <script src="https://kit.fontawesome.com/d3e8a97b92.js" crossorigin="anonymous"></script>
+
+  <!--FONT-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!--TITLE-->
+  <title>BELAK</title>
+</head>
+
+<body onload="load()">
+  <script type="text/javascript" language="javascript">
+    var versionUpdate = (new Date()).getTime();
+    var style = document.createElement("link");
+    style.rel = "stylesheet";
+    style.href = "../CSS/index.css?v=" + versionUpdate;
+    document.head.appendChild(style);
+  </script>
+  <div id="particles-js"></div>
+  <div class="container-fluid p-2" style="background-color: #0B0E13; font-weight: bold; letter-spacing: 1px;">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark justify-content-between">
+        <a href="/" class="my-auto" style="text-decoration: none; color: white;"><img class="rounded-circle" src="../IMG/logo.png" width="25px"
+            class="my-auto"> BELAK</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-4">
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="/releases"><i class="fas fa-music"></i> Releases</a>
+                </li>
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="/merch"><i class="fas fa-cube"></i> Merch</a>
+                </li>
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="/achievements"><i class="fas fa-random"></i> Achievements</a>
+                </li>
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="/features"><i class="fas fa-random"></i> Features</a>
+                </li>
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="/Socials"><i class="fas fa-random"></i> Socials</a>
+                </li>
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="/contact"><i class="fas fa-random"></i> Contact</a>
+                </li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-purple btn-md" style="font-weight: 700;" onclick="login()"><i class="fas fa-sign-in-alt"></i> LOGIN</button>
+      </nav>
+    </div>
+  </div>
+
+
+  <div class="container-fluid" style="margin-top: 5vh; margin-bottom: 0vh; position: relative; z-index: 1;">
+    <img class="animate__animated animate__fadeInDown rounded-circle" src="../IMG/logo.png" width="150px">
+    <h1 class="animate__animated animate__fadeInDown"
+      style="font-weight: 900; letter-spacing: 10px; margin-top: 1vh; font-size: 75px">BELAK</h1>
+      <hr>
+  </div>
+
+
+
+    <div class="container-fluid music-content" style="">
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1022410108&color=%2300daff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1006431943&color=%2300daff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+
+    </div>
+
+  <img src="../IMG/waveUp.svg" style="min-width: 100%; max-width: 100%; margin-top: -9px;">
+  <footer>
+    <div class="container-fluid">
+      <div class="row py-5">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-3 my-auto" style="text-align: center;">
+          <img class="my-auto rounded-circle" src="../IMG/logo.png" alt="Belak" width="75">
+          <p class="pt-2" style="font-weight: 900; font-size: 30px; letter-spacing: 5px;">Belak</p>
+          <hr style="max-width: 40%;">
+          <p style="font-weight: 500; font-size: 15px; color: #999">&copy; TRIBAL LOTUS 2021</p>
+        </div>
+        <div class="col-sm">
+        </div>
+        <div class="col-sm-2">
+          <h4>Navigation</h4>
+          <p><a class="listlink" href="/releases"><i class="fas fa-music"></i> Releases</a></p>
+          <p><a class="listlink" href="/merch"><i class="fas fa-music"></i> Merch</a></p>
+          <p><a class="listlink" href="/achievements"><i class="fas fa-music"></i> Achievements</a></p>
+          <p><a class="listlink" href="/features"><i class="fas fa-music"></i> Features</a></p>
+          <p><a class="listlink" href="/contact"><i class="fas fa-music"></i> Contact</a></p>
+        </div>
+        <div class="col-sm-2">
+          <h4>Socials</h4>
+          <p><a class="listlink" href="" onclick="joinDiscord()"><i class="fab fa-discord"></i> Discord</a></p>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script type="text/javascript" language="javascript">
+    var versionUpdate = (new Date()).getTime();
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "../JS/index.js?v=" + versionUpdate;
+    document.body.appendChild(script);
+  </script>
+</body>
+
+</html>
